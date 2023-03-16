@@ -1,11 +1,9 @@
 package ru.shockshaw;
 
-import javax.print.attribute.standard.DialogOwner;
-
 public class Robot {
     private int x;
     private int y;
-    Direction direction;
+    private Direction direction;
 
     public Robot() {
         this.x = 0;
