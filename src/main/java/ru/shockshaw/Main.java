@@ -11,5 +11,6 @@ public class Main {
         System.out.println(m.get(1,1));
         System.out.println(m.trace());
         System.out.println(m.det());
+
     }
 }

@@ -7,9 +7,9 @@ public class Robot {
     private int y;
     Direction direction;
 
-    public Robot(int x, int y) {
-        this.x = x;
-        this.y = y;
+    public Robot() {
+        this.x = 0;
+        this.y = 0;
         this.direction = Direction.UP;
     }
 
