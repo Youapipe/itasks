@@ -7,10 +7,10 @@ public class Robot {
     private int y;
     Direction direction;
 
-    public Robot(int x, int y, Direction direction) {
+    public Robot(int x, int y) {
         this.x = x;
         this.y = y;
-        this.direction = direction;
+        this.direction = Direction.UP;
     }
 
     public void setDirection(Direction toSet) {direction = toSet;}
